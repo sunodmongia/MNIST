@@ -8,7 +8,7 @@ This project focuses on classifying handwritten digits (0–9) from the **MNIST 
 - 🧠 **Goal**: Build an accurate classifier that can recognize digits from 0 to 9.
 - ⚙️ **Approach**: Multiple models were explored — from Logistic Regression to deep learning using CNNs — with performance compared using accuracy and confusion matrices.
 
-<img width="600" alt="mnist-sample" src="https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/3b35bd58-e8ce-4a68-9931-5c94a69a06eb" />
 
 ---
 
