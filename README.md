@@ -26,7 +26,9 @@ The following Python libraries were used for data handling, model training, and 
 | `joblib`        | Saving/loading trained models            |
 | `jupyter`       | Notebook development and visualization   |
 
+
 ---
+
 
 ## 💾 Dataset Description
 
@@ -37,7 +39,9 @@ The following Python libraries were used for data handling, model training, and 
 
 🎯 Target: The digit label (0–9) for each image.
 
+
 ---
+
 
 🤖 Models Used
 Multiple models were trained and evaluated using cross-validation and test accuracy:
@@ -50,6 +54,7 @@ Multiple models were trained and evaluated using cross-validation and test accur
 | SVC (OvR) (RBF Kernel) |  ```to update``` | Slow          | Highly accurate |
 
 # Model used: SVC (OvR) (rbf Kernel)
+
 
 ---
 
@@ -75,6 +80,8 @@ Multiple models were trained and evaluated using cross-validation and test accur
 
 Stratified sampling used for balanced class distribution.
 
+```more to add```
+
 ---
 
 # How to Run
@@ -86,6 +93,6 @@ Stratified sampling used for balanced class distribution.
    ```python -m venv venv```
    ```source venv/bin/activate```
 
-3 Install all dependencies using:
+3. Install all dependencies using:
   ```pip install -r requirements.txt```
 
