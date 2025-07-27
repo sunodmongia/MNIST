@@ -26,7 +26,66 @@ The following Python libraries were used for data handling, model training, and 
 | `joblib`        | Saving/loading trained models            |
 | `jupyter`       | Notebook development and visualization   |
 
-📌 Install all dependencies using:
-```bash
-pip install -r requirements.txt
+---
+
+## 💾 Dataset Description
+
+| Feature         | Description                            |
+| --------------- | -------------------------------------- |
+| `image (28x28)` | Grayscale image of a handwritten digit |
+| `label`         | True digit (0–9)                       |
+
+🎯 Target: The digit label (0–9) for each image.
+
+---
+
+🤖 Models Used
+Multiple models were trained and evaluated using cross-validation and test accuracy:
+
+| Model                  | Cross Validation | Training Time | Remarks         |
+| -----------------------| ---------------- | ------------- | --------------- |
+| SGDClassifier          |     87.54%       | Fast          | Less Accurate   |
+| RandomForestClassifier |  ```to update``` | Moderate      | Fast + Moderate |
+| SVC (OvO) (RBF Kernel) |  ```to update``` | Slow          | Accurate        |
+| SVC (OvR) (RBF Kernel) |  ```to update``` | Slow          | Highly accurate |
+
+# Model used: SVC (OvR) (rbf Kernel)
+
+---
+
+📊 Evaluation Metrics
+  - Accuracy Score
+  - Confusion Matrix
+  - Classification Report: [[Precision, Recall, F1-Score, ROC, AUC]]
+  - Curve: [[Precision/Recall curve, ROC curve, ROC_AUC curve]]
+  - Visualizations of sample predictions
+
+```more to add```
+ 
+---
+
+🧹 Data Preprocessing
+1. StandardScaler:
+   - Standard Scaling up data to increase its accuracy for the model
+
+2. Train-Test Split
+  - Training Set: 56,000 samples
+  - Testing Set: 14,000 samples
+  - Using ```train_test_split``` for spliting data and stratified using stratify=y (hyperparameter).
+
+Stratified sampling used for balanced class distribution.
+
+---
+
+# How to Run
+
+1. Clone the Repository:
+   ```git clone https://github.com/yourusername/mnist.git```
+
+2. Setup Environment:
+   ```python -m venv venv```
+   ```source venv/bin/activate```
+
+3 Install all dependencies using:
+  ```pip install -r requirements.txt```
 
