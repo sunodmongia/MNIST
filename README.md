@@ -48,7 +48,7 @@ Multiple models were trained and evaluated using cross-validation and test accur
 
 | Model                  | Cross Validation | Training Time | Remarks         |
 | -----------------------| ---------------- | ------------- | ----------------|
-| SGDClassifier          |     90.01%       | Fast          | Less Accurate   |
+| SGDClassifier          |     89.67%       | Fast          | Less Accurate   |
 | RandomForestClassifier |     96.72%       | Moderate      | Highly Accurate |
 | SVC (OvO) (RBF Kernel) |     97.40%       | Moderate      | Accurate        |
 | SVC (OvR) (RBF Kernel) |     93.33%       | Slow          | Accurate        |
