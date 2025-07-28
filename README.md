@@ -61,6 +61,8 @@ Multiple models were trained and evaluated using cross-validation and test accur
 📊 Evaluation Metrics
   - Accuracy Score
   - Confusion Matrix
+    <img width="515" height="437" alt="image" src="https://github.com/user-attachments/assets/9bd89760-d9b5-4395-8cb1-168095d5ffa1" />
+
   - Classification Report: [[Precision, Recall, F1-Score, ROC, AUC]]
   - Curve: [[Precision/Recall curve, ROC curve, ROC_AUC curve]]
   - Visualizations of sample predictions
