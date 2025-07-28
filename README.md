@@ -47,11 +47,11 @@ The following Python libraries were used for data handling, model training, and 
 Multiple models were trained and evaluated using cross-validation and test accuracy:
 
 | Model                  | Cross Validation | Training Time | Remarks         |
-| -----------------------| ---------------- | ------------- | --------------- |
-| SGDClassifier          |     87.54%       | Fast          | Less Accurate   |
-| RandomForestClassifier |  ```to update``` | Moderate      | Fast + Moderate |
+| -----------------------| ---------------- | ------------- | ----------------|
+| SGDClassifier          |     90.01%       | Fast          | Less Accurate   |
+| RandomForestClassifier |     96.72%       | Moderate      | Highly Accurate |
 | SVC (OvO) (RBF Kernel) |  ```to update``` | Slow          | Accurate        |
-| SVC (OvR) (RBF Kernel) |  ```to update``` | Slow          | Highly accurate |
+| SVC (OvR) (RBF Kernel) |  ```to update``` | Slow          | Highly Accurate |
 
 # Model used: SVC (OvR) (rbf Kernel)
 
