@@ -82,12 +82,15 @@ Stratified sampling used for balanced class distribution.
 # How to Run
 
 1. Clone the Repository:
-   ```git clone https://github.com/sunodmongia/mnist.git```
+   ```bash
+      git clone https://github.com/sunodmongia/mnist.git
 
 2. Setup Environment:
-   ```python -m venv venv```
-   ```source venv/bin/activate```
+   ```bash
+      python -m venv venv
+      source venv/Scripts/activate
 
 3. Install all dependencies using:
-  ```pip install -r requirements.txt```
+   ```bash
+      pip install -r requirements.txt
 
