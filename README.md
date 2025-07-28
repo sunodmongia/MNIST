@@ -50,10 +50,9 @@ Multiple models were trained and evaluated using cross-validation and test accur
 | -----------------------| ---------------- | ------------- | ----------------|
 | SGDClassifier          |     90.01%       | Fast          | Less Accurate   |
 | RandomForestClassifier |     96.72%       | Moderate      | Highly Accurate |
-| SVC (OvO) (RBF Kernel) |  ```to update``` | Slow          | Accurate        |
-| SVC (OvR) (RBF Kernel) |  ```to update``` | Slow          | Highly Accurate |
-
-# Model used: SVC (OvR) (rbf Kernel)
+| SVC (OvO) (RBF Kernel) |     97.40%       | Moderate      | Accurate        |
+| SVC (OvR) (RBF Kernel) |     93.33%       | Slow          | Accurate        |
+| KNeighborClassifier    |                  |               |                 |
 
 
 ---
@@ -77,8 +76,6 @@ Multiple models were trained and evaluated using cross-validation and test accur
   - Using ```train_test_split``` for spliting data and stratified using stratify=y (hyperparameter).
 
 Stratified sampling used for balanced class distribution.
-
-```more to add```
 
 ---
 
