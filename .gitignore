@@ -4,10 +4,10 @@ __pycache__/
 *$py.class
 
 # C extensions
+*.stores
 *.so
-/env
-/venv
-/.vscode
+
+
 # Distribution / packaging
 .Python
 build/
