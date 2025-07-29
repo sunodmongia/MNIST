@@ -52,7 +52,8 @@ Multiple models were trained and evaluated using cross-validation and test accur
 | RandomForestClassifier |     96.72%       | Moderate      | Highly Accurate |
 | SVC (OvO) (RBF Kernel) |     97.40%       | Moderate      | Accurate        |
 | SVC (OvR) (RBF Kernel) |     93.33%       | Slow          | Accurate        |
-| KNeighborClassifier    |                  |               |                 |
+
+KNeigbhorClassifier for Mulitlabel and Multioutput Classification.
 
 
 ---
