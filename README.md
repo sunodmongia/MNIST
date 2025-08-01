@@ -47,13 +47,13 @@ The following Python libraries were used for data handling, model training, and 
 Multiple models were trained and evaluated using cross-validation and test accuracy:
 
 | Model                  | Cross Validation | Training Time | Remarks         |
-| -----------------------| ---------------- | ------------- | --------------- |
-| SGDClassifier          |     87.54%       | Fast          | Less Accurate   |
-| RandomForestClassifier |  ```to update``` | Moderate      | Fast + Moderate |
-| SVC (OvO) (RBF Kernel) |  ```to update``` | Slow          | Accurate        |
-| SVC (OvR) (RBF Kernel) |  ```to update``` | Slow          | Highly accurate |
+| -----------------------| ---------------- | ------------- | ----------------|
+| SGDClassifier          |     89.67%       | Fast          | Less Accurate   |
+| RandomForestClassifier |     96.72%       | Moderate      | Highly Accurate |
+| SVC (OvO) (RBF Kernel) |     97.40%       | Moderate      | Highly Accurate |
+| SVC (OvR) (RBF Kernel) |     93.33%       | Slow          | Accurate        |
 
-# Model used: SVC (OvR) (rbf Kernel)
+KNeigbhorClassifier for Mulitlabel and Multioutput Classification.
 
 
 ---
@@ -61,11 +61,9 @@ Multiple models were trained and evaluated using cross-validation and test accur
 📊 Evaluation Metrics
   - Accuracy Score
   - Confusion Matrix
-  - Classification Report: [[Precision, Recall, F1-Score, ROC, AUC]]
-  - Curve: [[Precision/Recall curve, ROC curve, ROC_AUC curve]]
+  - Classification Report: Precision, Recall, F1-Score, ROC, AUC
+  - Curve: Precision/Recall curve, ROC curve, ROC_AUC curve
   - Visualizations of sample predictions
-
-```more to add```
  
 ---
 
@@ -80,19 +78,20 @@ Multiple models were trained and evaluated using cross-validation and test accur
 
 Stratified sampling used for balanced class distribution.
 
-```more to add```
-
 ---
 
 # How to Run
 
 1. Clone the Repository:
-   ```git clone https://github.com/yourusername/mnist.git```
+   ```bash
+      git clone https://github.com/sunodmongia/mnist.git
 
 2. Setup Environment:
-   ```python -m venv venv```
-   ```source venv/bin/activate```
+   ```bash
+      python -m venv venv
+      source venv/Scripts/activate
 
 3. Install all dependencies using:
-  ```pip install -r requirements.txt```
+   ```bash
+      pip install -r requirements.txt
 
